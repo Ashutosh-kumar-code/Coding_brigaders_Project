@@ -1,0 +1,539 @@
+a{
+    text-decoration: none !important;
+}
+
+/* ------- Project page ------- */
+
+.projectlist_leftpart, .projectlist_rightsection {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.projectlist_leftpart {
+    flex: 0 0 25%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 25% */
+    margin-right: 10px;
+    min-width: 250px; /* Minimum width for smaller screens */
+}
+
+.projectlist_rightsection {
+   
+    position: relative;
+    border: none;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.projectlist_mainsection .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projectlist_mainsection .right-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.projectlist_mainsection .top-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.projectlist_mainsection h1, .projectlist_mainsection h2, .projectlist_mainsection h3 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.projectlist_mainsection .new-span, .projectlist_mainsection .inline-element, .projectlist_mainsection .below-inline-element {
+    font-size: 16px;
+    color: #666;
+}
+
+.projectlist_mainsection p {
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.projectlist_leftpart .box {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.projectlist_leftpart .box.special,
+.projectlist_leftpart .box.search-box,
+.projectlist_leftpart .box.checkbox-box {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.projectlist_leftpart .box.special {
+    height: 50px;
+}
+
+.projectlist_leftpart .left-span,
+.projectlist_leftpart .right-span {
+    font-size: 16px;
+    color: #333;
+}
+
+.projectlist_leftpart .left-span {
+    flex: 1;
+    text-align: left;
+}
+
+.projectlist_leftpart .right-span {
+    flex: 1;
+    text-align: right;
+}
+
+.projectlist_leftpart .box.search-box input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.projectlist_leftpart .box.checkbox-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projectlist_leftpart .box.checkbox-box label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.projectlist_rightsection .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.projectlist_rightsection .stars {
+    font-size: 24px;
+    color: #ed2a4f;
+}
+
+.projectlist_rightsection .time {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.projectlist_rightsection .card {
+    border: 1px solid black; 
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+}
+
+.projectlist_rightsection .card:last-child {
+    margin-bottom: 0; 
+}
+
+
+@media (max-width: 768px) {
+    .projectlist_leftpart, .projectlist_rightsection {
+        flex: 0 0 100%; /* Full width on smaller screens */
+        margin-right: 0;
+    }
+}
+
+.projectlist_rightsection .project_name{
+    color: #ed2a4f;
+}
+.projectlist_rightsection span.inline-element{
+    font-weight: 800;
+}
+
+.projectlist_rightsection .card .footer .stars span{
+font-weight: 800;
+color: #333;
+font-size: 18px;
+margin-left: 8px;
+}
+
+.project_skillsflex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* margin-left: 20px; */
+}
+.project_skillsflex p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ed2a4f;
+    margin-bottom: 0px;
+}
+
+input[type="checkbox"]{
+    accent-color: #ed2a2f;
+    height: 20px;width: 20px;
+}
+
+.search-box input{
+    border: none;
+    outline:none;
+}
+
+.checkbox-box span{
+    margin-left: 10px;
+}
+
+.projectlist_leftpart .special input{
+    outline: none;
+    width: 100%;
+    padding: 6px;
+}
+
+
+/* ----------- Mentor List ----------- */
+
+
+.mentorslist_rightsection {
+    /* flex: 1; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.mentorslist_rightsection .card {
+    display: flex;
+    border: 1px solid black;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.mentorslist_rightsection .card .card-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mentorslist_rightsection .card .image-content {
+    position: relative;
+    display:block;
+    align-items: center;
+    /* width: 40%; */
+}
+
+.mentorslist_rightsection .card .image-content .card-image {
+    width: 215px;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.mentorslist_rightsection .card .image-content .online-status {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: #00ff00; /* Green color for online */
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.mentorslist_rightsection .card .text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mentorslist_rightsection .card .text-content .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.mentorslist_rightsection .card .text-content .header .name {
+    margin: 0;
+}
+
+.mentorslist_rightsection .card .text-content .header .right-header-content {
+    position: relative;
+    padding-right: 30px;
+}
+
+.mentorslist_rightsection .card .text-content .header .right-header-content .top-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mentorslist_rightsection .card .text-content .inline-elements {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.mentorslist_rightsection .card .text-content .inline-elements p {
+    margin-right: 5px;
+}
+
+.mentorslist_rightsection .card .text-content p {
+    color: #333;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.mentorslist_rightsection .card .text-content .flag-stars {
+    display: flex;
+    align-items: center;
+}
+
+.mentorslist_rightsection .card .text-content .flag-stars .stars,
+.mentorslist_rightsection .card .text-content .flag-stars .rating,
+.mentorslist_rightsection .card .text-content .flag-stars .flag,
+.mentorslist_rightsection .card .text-content .flag-stars .country {
+    margin-right: 5px;
+}
+
+.mentorslist_rightsection .card .text-content .programming {
+    margin-top: 10px;
+}
+
+.mentorslist_rightsection .card .text-content .heart-icon {
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.mentorslist_rightsection .card .text-content .heart-icon:hover {
+    color: #ff0000;
+}
+
+.mentorslist_rightsection .card .text-content .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.mentorslist_rightsection .card .text-content .btn {
+    background-color: #ed2a4f;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.mentorslist_rightsection .card .text-content .btn:hover {
+    background-color: #ed2a4f;
+}
+.mentorslist_rightsection .stars{
+    color: #ed2a4f;
+}
+.mentorslist_rightsection .programming{
+    color: #ed2a4f;
+    font-weight: 700;
+}
+
+.mentorslist_rightsection .flag{
+    margin-left: 10px;
+}
+
+/* Media Queries */
+/* @media (max-width: 768px) {
+    .left-section, .mentorslist_rightsection {
+        flex: 0 0 100%;
+    }
+} */
+
+
+.projectlist_mainsection{
+    margin: 50px 0px;
+}
+
+
+/* ---------------- */
+
+.projectlist_rightsection .card{
+    margin-bottom: 20px;
+}
+
+.myprojects_pagemian{
+    margin: 60px 0px;
+}
+.myprojects_pagemian h2{
+font-size: 28px;
+color: #000;
+font-weight: 800;
+}
+.myprojects_pagemian .uploadanotherproject{
+    display: flex;
+    justify-content: end;
+    margin: 30px 0px;
+}
+.myprojects_pagemian .card_navigtebtns{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    margin: 10px 0px;
+    margin-right: 20px;
+} 
+.myprojects_pagemian .button_mainall{
+    padding: 10px 60px;
+}
+.myprojects_pagemian .upload_date{
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.footer_mainclass{
+    border-top: 2px solid #ed2a4f;
+}
+
+.footer_subscribe{
+    border: 1px solid #ed2a4f;
+    padding: 10px 20px;
+    color: #ed2a4f;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer_subscribe:hover{
+    /* cursor: pointer !important; */
+    transition: 0.3s;
+    background: #ed2a4f !important;
+    color: #fff !important;
+}
+
+.maketeam_mainsection{
+    margin: 60px 0px;
+}
+.maketeam_mainsection .searchmemers .button_mainall{
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.h2_heading{
+    font-size: 28px;
+color: #000;
+font-weight: 800;
+margin-bottom: 30px !important;
+}
+
+
+.buycards_maindiv .learning_card1{
+    height: auto;
+}
+.buycards_maindiv .learning_card1 p{
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+.buycards_maindiv .learning_card1 h6{
+    font-size: 16px;
+    color: #999999;
+}
+.buycards_maindiv .learning_card1 .price{
+    color: #ed2a4f;
+    font-weight: 700;
+}
+.buycards_maindiv .learning_card1 img{
+    height: 180px;
+}
+
+
+/* my profile css */
+
+.header_dropdownnav {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .headnavdropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 10;
+    top: 120%;
+    border-radius: 4px;
+    
+  }
+  
+  .headnavdropdown-content a {
+    color: black;
+    padding: 11px 17px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    /* margin: 5px 5px; */
+  }
+  
+  .headnavdropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .header_rightnavlinks{
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .header_mainmainclass{
+    box-shadow: 0 5px 19px rgba(0, 0, 0, .278);
+    margin-bottom: 20px;
+    padding: 18px 0px;
+  }
+
+  .website_logomain{
+    margin-top: 0px;
+  }
+
+  .collaborate_cardbtn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .project_datetimeflex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .project_datetimeflex .time{
+    margin-top: 5px;
+  }
+
+  .logomargin_topjoin{
+    margin-top: 16px;
+  }

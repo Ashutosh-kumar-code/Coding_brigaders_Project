@@ -1,0 +1,334 @@
+/* -------- Ourfaq section ---- */
+.ourfaq_mainsection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000c25;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.ourfaq_mainsection .faq_section {
+  padding: 25px 0px 5%;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.ourfaq_mainsection .MuiPaper-root {
+  box-shadow: none;
+  border-bottom: 2px solid #000c25;
+  border-radius: 0px !important;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.ourfaq_mainsection .MuiPaper-root.Mui-expanded {
+  margin: 0px 0px;
+  margin-bottom: 10px;
+}
+.ourfaq_mainsection .MuiAccordion-root::before {
+  display: none;
+}
+.ourfaq_mainsection .MuiTypography-root {
+  color: #000c25;
+  font-size: 18px;
+  font-weight: 600;
+  /* font-family: $Font_Sora; */
+}
+
+.ourfaq_mainsection .MuiButtonBase-root {
+  padding: 15px 15px 20px !important;
+  /* // background: $color_ffffff; */
+}
+
+.ourfaq_mainsection .MuiAccordionSummary-content {
+  margin: 0px 0px;
+}
+
+.ourfaq_mainsection .MuiAccordionSummary-content.Mui-expanded {
+  margin: 0px 0px;
+}
+
+.ourfaq_mainsection .MuiSvgIcon-root {
+  color: #ed2a4f;
+}
+
+.ourfaq_mainsection .MuiAccordionDetails-root {
+  padding: 0 15px 15px !important;
+}
+.ourfaq_mainsection .MuiTypography-root {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 400;
+  /* font-family: $Font_Sora; */
+}
+
+.ourfaq_mainsection .faq_section .MuiTypography-root {
+  width: 100%;
+}
+.faq_headingflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #000;
+  font-weight: 600;
+}
+
+/* ----------Contact Us-----------  */
+
+.contact_title {
+  padding: 60px 0px 0px;
+  margin-bottom: 40px;
+}
+.contact_title h3 {
+  font-size: 38px;
+  color: #000c25;
+  font-weight: 800;
+}
+
+.contact_title p {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  max-width: 40%;
+}
+
+.contact_us_section {
+  margin-bottom: 5%;
+}
+.contact_us_section .btn-common {
+  width: 100%;
+  margin-top: 0;
+  padding: 13px 40px;
+}
+
+.contact_us_section .call_us_area h3 {
+  color: #ed2a4f;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact_us_section .contact_info_area {
+  margin-bottom: 40px;
+}
+.contact_us_section .contact_info_area ul {
+  list-style: none;
+  padding: 0;
+}
+.contact_us_section .contact_info_area li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 35px;
+}
+.contact_us_section .contact_info_area svg {
+  position: absolute;
+  left: 0;
+}
+.contact_us_section .contact_info_area a {
+  color: #ed2a4f;
+}
+.contact_us_section .contact_info_area p {
+  font-size: 14px;
+}
+.contact_us_section .contact_info_area strong {
+  font-size: 14px;
+  line-height: 16px;
+  color: #222;
+}
+
+.contact_us_section .contact_info_area p {
+  color: #ed2a4f;
+}
+
+.contact_us_section h3.widget-title {
+  margin-bottom: 15px;
+}
+.contact_us_section .contact_follow_us ul li {
+  display: inline-block;
+}
+.contact_us_section .contact_follow_us ul li a {
+  color: #ed2a4f;
+  display: inline-block;
+  margin-right: 14px;
+  font-size: 20px;
+}
+
+.contact_us_section svg path {
+  fill: #ed2a4f;
+}
+.inputall_main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.inputall_main label {
+  font-size: 14px;
+  color: #000c25;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.inputall_main input {
+  border-radius: 0;
+  color: #ed2a4f;
+  font-size: 16px;
+  background: #f8f8f8;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  outline: none;
+  font-weight: 400;
+}
+.inputall_main input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+.inputall_main textarea {
+  border-radius: 0;
+  color: #ed2a4f;
+  font-size: 16px;
+  background: #f8f8f8;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  outline: none;
+}
+
+.inputall_main textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ------------- What client say --------- */
+
+.whatclient_saysectionmain{
+    padding: 60px 0px;
+}
+  .whatclient_saysectionmain  h2{
+        text-align: left;
+        color: #000c25;
+        /* line-height: 1.4em; */
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+  .whatclient_saysectionmain  .clientsay_sectionflex{
+        display: flex;
+        align-items: center;
+    }
+  .whatclient_saysectionmain  .left_imagesection{
+        /* // width: calc(39.8973% - (0.60102739726027* 30px)); */
+        height: 320px;
+        width: 100%;
+         
+    }
+
+   .whatclient_saysectionmain .clientsay_carosoul{
+        width: 65%;
+        margin-left: -65px;
+
+        /* .owl-item{
+            // width: 370px !important;
+        } */
+
+    }
+
+  .whatclient_saysectionmain  .clientay_cards1{
+        background: #FFFFFF;
+        box-shadow: 0px 12px 14px #000c251a;
+        opacity: 1;
+        padding: 30px;
+        position: relative;
+        margin-top: 14px;
+        margin-bottom: 25px;
+  }
+
+      .whatclient_saysectionmain  .quote_img {
+            position: initial;
+            margin-top: -42px;
+      }
+      .whatclient_saysectionmain  .quote_img  img{
+                background-color: #023962;
+    width: 34px;
+    padding: 5px;
+}
+            
+
+.whatclient_saysectionmain .slider_txt{
+    color: #A5A5A5;
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.whatclient_saysectionmain .slider_txt h6{
+    font-weight: 700;
+    color: #000C25;
+    font-size: 16px;
+}
+
+     /* ---------------- About us section ------------ */
+
+     .about-us-main-section{
+        background: #ed2a4f;
+        position: relative;
+        z-index: 2;
+        /* // padding: 5% 0%; */
+        padding: 90px 0%;
+     }
+     .about-us-main-section::before{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0px;
+            width: 60%;
+            height: calc(100% + 2px);
+            background: #fff;
+            z-index: -1;
+        }
+        /* &::after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-image: url(../../../assets/images/qctlc-about-right-bg.png);
+            background-size: auto;
+            background-position: top center;
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 100%;
+        } */
+        .about-us-main-section .wd-info-grid{
+            /* @include flex_grid; */
+            display: flex;
+            gap: 30px;
+            position: relative;
+            align-items: center;
+        
+         }
+         .about-us-main-section  .wd-info-50{
+             width:calc(50% - (0.5 * 30px));
+         }
+     
+         .about-us-main-section .image-side-rigth  img{
+                 width: 100%;
+             }
+         
+             .about-us-main-section  .title-inner h3{
+                color: #ed2a4f;
+                font-size: 28px;
+                font-weight: 800;
+                padding-bottom: 28px; 
+                width: 85%;
+            }
+        
+    
+            .about-us-main-section .text-all-info p{
+                color: #6A6A6A;
+                font-weight: 500;
+                font-size: 16px; 
+                width: 85%;
+                margin-bottom: 15px;
+            
+        }
+    
